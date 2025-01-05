@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{subject}}</title>
+    <style>
+        body {
+            width: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #7f8df2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            width: 100%;
+            margin: 0 auto;
+            background-color: #7f8df2;
+            border-radius: 0; 
+        }
+        .email-header {
+            background-color: #7f8df2;
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .email-header img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        .email-header h3 {
+            font-size: 34px;
+            color: #ffffff;
+            margin: 0;
+            text-align: center;
+        }
+        .email-body {
+            background-color: #070101;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .email-body h2 {
+            color: #7f8df2;
+            font-size: 22px;
+        }
+        .email-body p {
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            color:#ffffff;
+        }
+        .footer {
+            text-align: center;
+            background-color: #7f8df2;
+            padding: 10px;
+            font-size: 14px;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header -->
+        <div class="email-header">
+            <h3>coinbase</h3>
+        </div>
+        <!-- Body -->
+        <div class="email-body">
+            <p>{{message}}</p>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <p style="text-decoration: underline;">Terms of Services</p>
+            <p>&copy; Coinbase 2025</p>
+            <p>Coinbase Michigan Limited</p>
+        </div>
+    </div>
+</body>
+</html>
